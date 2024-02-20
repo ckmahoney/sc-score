@@ -24,7 +24,12 @@ The `~score` Event provides three high level params.
 `cpp` is cycles per phrase. This describes the number of beats that go into the overarching muscal phrase. Powers of 2 work great (1,2,4,8,32...), just needs to be greater than 0.
 
 
-# Synthdefs 
+# Players / Synthdefs 
 
-The synthdefs are in the "lead", "chords", and "bass" files. 
+The synthdefs are in the "lead", "chords", and "bass" files. The pbindef call is also in its synth file. 
+
+Loading this file will result in playback of a melody. This is how the score's autoloader expects it to work. 
+
+This also means you can test or edit individual melodies by running just that file.
+
 
